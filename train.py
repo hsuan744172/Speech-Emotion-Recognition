@@ -1,4 +1,5 @@
-from tensorflow.keras.utils import to_categorical
+# from tensorflow.keras.utils import to_categorical
+from keras.utils import to_categorical
 import extract_feats.opensmile as of
 import extract_feats.librosa as lf
 import models

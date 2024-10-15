@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import Union
 import numpy as np
-from tensorflow.keras.models import Sequential
+from keras.models import Sequential
 from sklearn.metrics import accuracy_score
 from sklearn.base import BaseEstimator
 

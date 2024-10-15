@@ -2,7 +2,7 @@ import os
 from typing import Optional
 from abc import ABC, abstractmethod
 import numpy as np
-from tensorflow.keras.models import Sequential, model_from_json
+from keras.models import Sequential, model_from_json
 from ..base import BaseModel
 from utils import curve
 
